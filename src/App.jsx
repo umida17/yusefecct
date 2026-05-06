@@ -11,6 +11,8 @@ const Card = () => {
       SetData(data);
     })
   })
+
+  
   return (
     <div>
       {data.map(el => (
